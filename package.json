@@ -1,0 +1,18 @@
+{
+  "name": "Lucas-SASS",
+  "version": "1.0.0",
+  "description": "En ésta pagina se puede encontrar aplicado css, Bootstrap y scss. Hay aplicado CEO tambien y se siguieron los consejos dados en las devoluciones de anteriores entregas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss sass/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [],
+  "author": "LucasMiranda",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
