@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="/SASS/estilos.css">
 </head>
-<body>
+<body class="body-index">
    <!--Sidenav-->
    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="bootstrap" viewBox="0 0 118 94">
@@ -165,9 +165,9 @@
 <div class="container-lg mt-2">
   <div class="row">
     <!--Noticias-->
-    <section class="noticias container col-md-8">
+    <section class="noticias container bg-light rounded-3 col-md-7">
       <h2 class="text-center">Noticias</h2>
-      <div class="bg-light">
+      <div>
           <article><div class="noticia1">
               <img src="Imagenes/carro.jpg" alt="foto" class="w-100">
               <h3 class="container"><a href="/"> Partido Resumen</a></h3>
@@ -186,11 +186,11 @@
         </div>      
     </section>
     <!--Fixture & Sponsors-->
-    <section class="col-md-4 bg-light">
+    <section class="col-md-4 fixture">
       <div class="d-flex flex-column">
-        <div class="fixture">
-          <h3 class="text-start">Partidos</h3>
-            <div class="container">
+        <div class="fixture bg-secondary rounded-3">
+          <h3 class="text-center">Partidos</h3>
+            <div class="container bg-light">
               <ul>
                   <li>
                       <h4>Equipo1 vs Equipo2</h4>
@@ -211,7 +211,7 @@
               </ul>
             </div>
         </div>
-        <div class="sponsors container pt-3">
+        <div class="sponsors container  bg-light mt-2 rounded-3 pt-3">
           <h4 class="text-center">Nuestros Sponsors</h1>
           <img class="pt-5" src="/Imagenes/billie-logo.png" alt="">
           <img class="pt-5" src="/Imagenes/billie-logo.png" alt="">
@@ -223,7 +223,7 @@
   </div>
 </div>
 
-<footer>
+<footer class="footer">
   <nav class="container">
       <a href="contacto.html">Contacto</a>
       <p>+5412312434124</p>

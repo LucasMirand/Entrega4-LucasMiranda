@@ -1,6 +1,12 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+$border-radius:               .25rem;
+$border-radius-sm:            .2rem;
+$border-radius-lg:            .3rem;
+$secondary:     #8a8a8a;
+
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     background-color: green;
 }
@@ -38,6 +44,8 @@ body {
     display: grid;
     grid-template-areas: "header carousel";
     grid-template-columns: 4.5rem auto;
+
+    grid-area: gridHeader;
 }
 .nav-link {
     color: white;
@@ -100,3 +108,42 @@ footer{
     }
   }
 
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+	bottom: 3rem;
+	z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+	height: 32rem;
+  }
+  .carousel-item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 32rem;
+  }
+
+  header ul li:hover {
+    background-color: #ca1e1e;
+  }
+
+  .noticias {
+      grid-area: noticias;
+  }
+  .fixture {
+      grid-area: fixture;
+  }
+  .footer {
+      grid-area: footer;
+  }
+
+  @media (max-width: 720px) {
+      .noticias {padding-left: 4.5rem;
+        img {
+            width: 20rem;
+        }}
+      .fixture {padding-left: 2rem;}
+  }
