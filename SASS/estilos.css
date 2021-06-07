@@ -11630,10 +11630,61 @@ header ul li:hover {
     padding-left: 4.5rem;
   }
   .noticias img {
-    width: 20rem;
+    width: 10rem;
   }
   .fixture {
-    padding-left: 2rem;
+    padding-left: 4.5rem;
+    margin-top: 1rem;
+  }
+  .cajafixt {
+    margin-left: 0;
+    padding: 0;
+  }
+  .sponsors {
+    margin-bottom: 1rem 0;
+  }
+  .sponsors img {
+    size: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacto {
+    padding-left: 4.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footerGaleria {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .galeria {
+    padding-left: 4.1rem;
+  }
+  .footerGaleria {
+    padding-top: 2rem;
+  }
+}
+
+.news {
+  padding-left: 4.2rem;
+}
+
+.news img {
+  width: 70%;
+  height: 50%;
+}
+
+.club {
+  padding-left: 4.2rem;
+}
+
+@media (max-width: 576px) {
+  .equipo {
+    padding-left: 4.2rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

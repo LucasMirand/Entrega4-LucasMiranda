@@ -141,9 +141,55 @@ footer{
   }
 
   @media (max-width: 720px) {
-      .noticias {padding-left: 4.5rem;
+      .noticias {
+        padding-left: 4.5rem;
+            img {
+                width: 10rem;
+            }}
+      .fixture {
+        padding-left: 4.5rem;
+        margin-top: 1rem;}
+        .cajafixt {
+            margin-left: 0;
+            padding: 0;
+        }
+      
+    .sponsors {
+        margin-bottom: 1rem 0;
         img {
-            width: 20rem;
-        }}
-      .fixture {padding-left: 2rem;}
+        size: 80%;
+    }}
   }
+  //contacto//
+@media (max-width: 767px){
+      .contacto { padding-left: 4.2rem;}
+  }
+  //galeria//
+@media (min-width: 768px){
+.footerGaleria {
+    margin-top: 20rem;
+
+}}
+@media (max-width: 768px) {
+    .galeria {
+        padding-left: 4.1rem;
+    }
+    .footerGaleria {
+        padding-top: 2rem;
+    }
+}
+.news {
+    padding-left: 4.2rem;
+    img {
+        width: 70%;
+        height: 50%;
+    }
+}
+.club {
+    padding-left: 4.2rem;
+}
+@media (max-width: 576px) {
+    .equipo {
+        padding-left: 4.2rem;
+    }
+}
