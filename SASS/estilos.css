@@ -11686,5 +11686,17 @@ header ul li:hover {
   .equipo {
     padding-left: 4.2rem;
   }
+  .sponsors img {
+    width: 50%;
+  }
+}
+
+.fotosGaleria img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.fotosGaleria img {
+  overflow: hidden;
 }
 /*# sourceMappingURL=estilos.css.map */
